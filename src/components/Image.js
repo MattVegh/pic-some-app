@@ -7,3 +7,5 @@ function Image({className}) {
         </div>
     )
 }
+
+export default Image

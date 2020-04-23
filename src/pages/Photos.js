@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "../components/Image"
-import {getClass} from "../utils"
+import { getClass } from "../utils"
 
 function Photos() {
     return (

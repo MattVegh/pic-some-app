@@ -1,17 +1,15 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
-import ReactDOM from 'react-dom';
-import { AppContextProvider } from './AppContext'
-import './index.css';
-import App from './App';
+import React from "react"
+import ReactDOM from "react-dom"
+import {BrowserRouter as Router} from "react-router-dom"
 
+import {ContextProvider} from "./Context"
+import App from "./App"
 
 ReactDOM.render(
-    <AppContextProvider>
+    <ContextProvider>
         <Router>
             <App />
         </Router>
-    </AppContextProvider>,
-    document.getElementById('root'));
-
-
+    </ContextProvider>, 
+    document.getElementById("root")
+)

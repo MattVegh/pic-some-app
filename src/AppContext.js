@@ -13,6 +13,7 @@ function AppContextProvider(props) {
 
     }, [])
 
+
     return (
         <AppContext.Provider value={{ pics, setPics }}>
             {props.children}

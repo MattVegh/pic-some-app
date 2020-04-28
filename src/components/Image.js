@@ -8,13 +8,9 @@ function Image({ className, img }) {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
-            {hovered ?
-                <i className="ri-heart-line favorite"></i>
-                : <div></div>}
+            { hovered && <i className="ri-heart-line favorite"></i> }
 
-            {hovered ?
-                <i className="ri-add-circle-line cart"></i>
-                : <div></div>}
+            { hovered && <i className="ri-add-circle-line cart"></i> }
             <img src={img.url} className="image-grid" />
         </div>
     )

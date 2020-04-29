@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react"
 import { Context } from '../Context'
-import propTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 function Image({ className, img }) {
     const [hovered, setHovered] = useState(false)
@@ -30,11 +30,11 @@ function Image({ className, img }) {
 }
 
 Image.propTypes = {
-    className: propTypes.string,
-    img: propTypes.shape({
-        id: propTypes.string,
-        url: propTypes.string,
-        isFavorite: propTypes.bool
+    className: PropTypes.string,
+    img: PropTypes.shape({
+        id: PropTypes.string,
+        url: PropTypes.string,
+        isFavorite: PropTypes.bool
     })
 }
 

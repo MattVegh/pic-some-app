@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react"
 import { Context } from '../Context'
+import propTypes from 'prop-types'
 
 function Image({ className, img }) {
     const [hovered, setHovered] = useState(false)
@@ -26,6 +27,15 @@ function Image({ className, img }) {
             <img src={img.url} className="image-grid" />
         </div>
     )
+}
+
+Image.propTypes = {
+    className: propTypes.string,
+    img: propTypes.shape({
+        id: propTypes.string,
+        url: propTypes.string,
+        isFavorite: propTypes.bool
+    })
 }
 
 export default Image

@@ -13,8 +13,15 @@ function ContextProvider({children}) {
     }, [])
     
     function toggleFavorite(id) {
-        const matchedId = pics.find(id => id === pics.id)
-        console.log(matchedId)
+        const updatedPicArr = allPhotos.map(photo => {
+            if(photo.id === id) {
+                return {
+                    ...photo,
+                    isFavorited: !photo.isFavorite
+                }
+            }
+            return photo
+        })
     }
 
     return (

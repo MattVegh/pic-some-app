@@ -5,7 +5,7 @@ Created at the end of a [React course](https://scrimba.com/g/greact/) on Scrimba
 Not an actual store's app. Made strictly for education purposed to practice React.
 
 ## Live Link
-* [Pic-Some]()
+[Pic-Some]()
 
 ## Screenshots
 Home Page
@@ -16,5 +16,5 @@ Cart Page
 
 ## Author
 
-* **Matthew Vegh** 
+**Matthew Vegh** 
 

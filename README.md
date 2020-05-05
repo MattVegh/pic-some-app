@@ -2,7 +2,7 @@
 
 Created at the end of a [React course](https://scrimba.com/g/greact/) on Scrimba by Bob Ziroll
 
-Not a real store's app. Made strictly for educational purposed to practice React.
+Not a real store's app. Made strictly for educational purposes to practice React.
 
 ## Live Link
 [Pic-Some](https://pic-some-app.mdv240.now.sh/)

@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react"
+import React, { useContext } from "react"
 import { Context } from '../Context'
 import PropTypes from 'prop-types'
 import useHover from '../hooks/useHover'
@@ -29,7 +29,7 @@ function Image({ className, img }) {
             {heartIcon()}
             {cartIcon()}
 
-            <img src={img.url} className="image-grid" />
+            <img src={img.url} className="image-grid" alt='Image Grid' />
         </div>
     )
 }

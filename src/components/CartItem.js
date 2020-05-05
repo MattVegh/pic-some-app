@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import PropTypes from 'prop-types'
 import { Context } from '../Context'
 import useHover from '../hooks/useHover'
@@ -18,7 +18,7 @@ function CartItem({ item }) {
                 className={iconClassName}
                 ref={ref}
             ></i>
-            <img src={item.url} width='130px' />
+            <img src={item.url} width='130px' alt='image url' />
             <p>$5.99</p>
         </div>
     )
